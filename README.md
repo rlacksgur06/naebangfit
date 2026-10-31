@@ -4,8 +4,8 @@
 
 A free web app that checks whether a sim racing rig fits your room before you buy one: enter the room, place a rig in 3D, get a verdict, and sit in the driver's seat to compare monitor setups.
 
-**열기 · Open:** https://rlacksgur06.github.io/naebangfit/  
-**버전 · Version:** 1.1.1 ([변경 기록](CHANGELOG.md))
+**열기 · Open:** https://rlacksgur06.github.io/naebangfit/ (한국어) · https://rlacksgur06.github.io/naebangfit/en/ (English)  
+**버전 · Version:** 1.2.0 ([변경 기록](CHANGELOG.md))
 
 | 방에 리그 놓기 | 운전석에서 보기 |
 |---|---|
@@ -17,10 +17,11 @@ A free web app that checks whether a sim racing rig fits your room before you bu
 
 | 경로 | 내용 |
 |---|---|
-| `index.html` | 앱 전체 (한 파일) |
+| `index.html` | 앱 전체 (한 파일, 한국어) |
+| `en/index.html` | 영어 버전 · English (같은 앱, 글자만 영어) |
 | `media/` | 주행 영상 (낮·밤, PC용 화면별 FHD `_L/_C/_R`, 휴대폰·방 화면용 `_M`), 주행 소리, 정지 화면 |
-| `privacy.html` | 개인정보처리방침 (로그인·내 라이브러리·익명 통계) |
-| `docs/` | 이 문서의 화면 사진 |
+| `privacy.html` · `privacy-en.html` | 개인정보처리방침 · Privacy Policy (로그인·내 라이브러리·공유 링크·익명 통계) |
+| `docs/` | 이 문서의 화면 사진, 링크 미리보기 그림 (`og-ko.jpg`, `og-en.jpg`) |
 | `.github/workflows/keepalive.yml` | 하루 두 번 로그인 서버(Supabase)를 깨워 두는 자동 작업 |
 
 ## 저작권
