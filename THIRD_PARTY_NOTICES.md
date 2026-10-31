@@ -6,6 +6,7 @@
 |---|---|---|---|
 | three.js r128 (+ examples: OrbitControls, RoundedBoxGeometry, RoomEnvironment) | 3D 화면 전체. CDN(cdnjs, jsDelivr)에서 불러옴 | MIT | © 2010-2021 three.js authors |
 | qrcode-generator 1.4.4 | 셋업 카드의 QR. CDN(cdnjs)에서 필요할 때 불러옴 | MIT | © 2009 Kazuhiko Arase |
+| supabase-js 2.117.3 (auth-js, postgrest-js 등 포함) | 로그인과 내 라이브러리. CDN(jsDelivr)에서 이 사이트에서만 불러옴 | MIT | © 2020 Supabase |
 | Phosphor Icons (regular) | 앱 아이콘 대부분. SVG 경로를 index.html에 넣어 씀 | MIT | © 2023 Phosphor Icons |
 | NBF Sans (Pretendard 1.309 기반) | 앱 글꼴. 앱에 쓰는 글자만 남기고(1,100자) 이름을 바꿔 index.html에 넣어 씀 | SIL OFL 1.1 | © 2021 Kil Hyung-jin 외 (아래 전문) |
 | “Inspired” Kevin MacLeod | 소개영상 배경음악 (편집함) | CC BY 4.0 | Kevin MacLeod (incompetech.com) |
@@ -61,6 +62,32 @@ THE SOFTWARE.
 MIT License
 
 Copyright (c) 2009 Kazuhiko Arase
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### supabase-js
+
+```
+MIT License
+
+Copyright (c) 2020 Supabase
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
