@@ -1,0 +1,78 @@
+# Changelog
+
+[한국어](CHANGELOG.md) · **English**
+
+## 1.5.1 — 2026-11-02
+
+- New intro video (new cut, 42 s)
+- New start screen loop (7 s, 4.3 MB → 1.3 MB)
+- Site icon: browser tab, add to home screen, next to link previews
+- New link preview image: example room 1, laid out in the centre so Naver Cafe and KakaoTalk no longer crop it
+- Copyright line now includes the GitHub account
+- Docs: README and changelog split into Korean and English
+
+## 1.5.0 — 2026-11-01
+
+- Inch units: Menu › Settings › Units (cm · mm · in)
+  - Rooms in feet and inches (e.g. 11′ 6″), furniture and gaps in inches, area in ft², cables in lengths you can buy (3 · 6 · 10 · 15 ft…)
+  - Rig Garage profiles, game FOV values and part specs stay in mm
+  - The English version opens in inches in US browsers
+- Cleaner start screen: one link, "Browse other rooms ›" ("Start over" too when continuing); the intro video moves to ▶ under the sound button
+- Setup gallery: "Naebangfit examples" on top, with the Showroom and 3 example rooms (open in view mode; your own room stays as it is)
+- One help button: the separate "How this step works" is gone; the written guide is under "Read instead" in the video window
+- Toolbar ···: "How to" (the view tools and menu video)
+- Menu: "Load from share code" moves into the Share window; "Language" moves into Settings
+
+## 1.4.0 — 2026-11-01
+
+- How-to videos: "▶ How to" next to each step's title (landscape on PC, portrait on phones, 1× · 1.5× · 2×, music ducks while playing)
+- "Getting started" video plays once on the first start
+- Menu › How to use: the intro video and every step's video
+- Start screen: silent background loop (a still frame with data saver, slow connections or reduced motion), intro video link
+- Rig Garage video ends with "Next: Garage handles ›"
+
+## 1.3.0 — 2026-11-01
+
+- Setup gallery: browse rooms and rigs shared by others and open them as they are (newest, most opened)
+  - After signing in: post your setup (title, one-line note, room picture) and delete your own posts
+  - Names and emails are never shown; posts with enough reports are hidden automatically
+  - Also from "Post to gallery" in the Result step and the start screen link
+- Privacy Policy: setup gallery section (Korean and English)
+
+## 1.2.0 — 2026-11-01
+
+- Short share links: `…/naebangfit/?s=AbCd2345`. Simpler QR on the setup card. Falls back to a long link with the whole setup when the server can't be reached
+- Phone sharing: the Share button opens the phone's share sheet (KakaoTalk, Messages)
+- Link previews: pasting a link in KakaoTalk, messengers or social media shows a card with a picture, title and description
+- English version (`/en/`): browsers not set to Korean open it first; switch any time from the menu
+- Privacy Policy: share link section, English version (`privacy-en.html`)
+
+## 1.1.1 — 2026-11-01
+
+- Privacy Policy link in the sign-in window uses the app colour
+- Scheduled job wakes the sign-in server (Supabase free plan) twice a day so it doesn't pause
+
+## 1.1.0 — 2026-11-01
+
+- Sign-in and My Library: save rooms and rigs as setups with a Google account (up to 50) and open them again on PC or phone
+  - Save under a new name, overwrite, delete, delete account (account and setups removed at once)
+  - Everything still works without signing in
+- Privacy Policy ([privacy-en.html](privacy-en.html)), linked at the bottom of the menu
+
+## 1.0.1 — 2026-11-01
+
+- Anonymous usage stats: app version, browser language and time zone; no IP location
+  - What is sent is listed on the start screen and in Menu › Open source & credits; turn it off in Menu › Settings
+
+## 1.0.0 — 2026-11-01
+
+First public version.
+
+- Room: width, depth, ceiling height, doors and windows (hinged, sliding, opening side), example rooms, draw your own layout on PC
+- Furniture: by category, drag to move and rotate, snaps to walls and other furniture
+- Rigs: aluminium profile, foldable and fixed seat rigs, desk clamp, compare several, design your own on PC
+- Monitors: single, ultrawide, triple (curved too), rig-mounted, floor stand or desk monitor arm
+- Verdict: does it fit, can the door open, room to get in and out, screen distance
+- Driver's seat: seated view, 200° wide view, day and night driving footage with engine sound, FOV values per game
+- Tools: cable lengths, lighting preview (light bar), Showroom (10 monitor setups), setup card (QR), share links
+- Display: phone support, light and dark, cm and mm units

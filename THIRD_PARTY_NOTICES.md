@@ -1,30 +1,38 @@
-# Third-party notices · 외부 구성 요소
+# 외부 구성 요소 · Third-party notices
 
-내방핏(Naebangfit)이 쓰는 외부 코드·글꼴·아이콘·음악과 그 라이선스예요. 앱 안에서는 메뉴(···) › 맨 아래 **오픈소스·저작권**에서 같은 내용을 볼 수 있어요.
+내방핏이 쓰는 외부 코드·글꼴·아이콘·음악과 라이선스. 앱에서는 메뉴(···) 맨 아래 **오픈소스·저작권**에서 같은 내용 확인 가능.
+External code, fonts, icons and music used by Naebangfit, with their licenses. Also in the app: Menu (···) › **Open source & credits** at the bottom.
 
-| 구성 요소 | 쓰는 곳 | 라이선스 | 저작권 |
+| 구성 요소 · Component | 쓰는 곳 · Used for | 라이선스 · License | 저작권 · Copyright |
 |---|---|---|---|
-| three.js r128 (+ examples: OrbitControls, RoundedBoxGeometry, RoomEnvironment) | 3D 화면 전체. CDN(cdnjs, jsDelivr)에서 불러옴 | MIT | © 2010-2021 three.js authors |
-| qrcode-generator 1.4.4 | 셋업 카드의 QR. CDN(cdnjs)에서 필요할 때 불러옴 | MIT | © 2009 Kazuhiko Arase |
-| supabase-js 2.117.3 (auth-js, postgrest-js 등 포함) | 로그인과 내 라이브러리. CDN(jsDelivr)에서 이 사이트에서만 불러옴 | MIT | © 2020 Supabase |
-| Phosphor Icons (regular) | 앱 아이콘 대부분. SVG 경로를 index.html에 넣어 씀 | MIT | © 2023 Phosphor Icons |
-| NBF Sans (Pretendard 1.309 기반) | 앱 글꼴. 앱에 쓰는 글자만 남기고(1,100자) 이름을 바꿔 index.html에 넣어 씀 | SIL OFL 1.1 | © 2021 Kil Hyung-jin 외 (아래 전문) |
-| “Inspired” Kevin MacLeod | 소개영상 배경음악 (편집함) | CC BY 4.0 | Kevin MacLeod (incompetech.com) |
+| three.js r128 (+ examples: OrbitControls, RoundedBoxGeometry, RoomEnvironment) | 3D 화면 전체, CDN(cdnjs, jsDelivr) · The whole 3D view, loaded from a CDN | MIT | © 2010-2021 three.js authors |
+| qrcode-generator 1.4.4 | 셋업 카드 QR, 필요할 때 CDN에서 불러옴 · Setup card QR, loaded from a CDN when needed | MIT | © 2009 Kazuhiko Arase |
+| supabase-js 2.117.3 (auth-js, postgrest-js 등 · and others) | 로그인, 내 라이브러리, 공유 링크, 갤러리 (이 사이트에서만) · Sign-in, My Library, share links, gallery (this site only) | MIT | © 2020 Supabase |
+| Phosphor Icons (regular) | 앱 아이콘 대부분, SVG 경로를 index.html에 포함 · Most app icons, SVG paths inside index.html | MIT | © 2023 Phosphor Icons |
+| NBF Sans (Pretendard 1.309 기반 · based on Pretendard 1.309) | 앱 글꼴, 쓰는 글자만 남기고 이름 변경 · App font, subset and renamed | SIL OFL 1.1 | © 2021 Kil Hyung-jin 외 · and others (전문 아래 · full text below) |
+| “Inspired” Kevin MacLeod | 소개 영상 배경음악 (편집) · Intro video music (edited) | CC BY 4.0 | Kevin MacLeod (incompetech.com) |
 
-## 글꼴 이름을 바꾼 이유
+## 글꼴 이름을 바꾼 이유 · Why the font is renamed
 
-Pretendard는 SIL Open Font License 1.1로 배포되고, “Pretendard”를 예약 글꼴 이름(Reserved Font Name)으로 정해 두었어요. OFL은 수정본(글자를 줄인 서브셋 포함)이 예약 이름을 쓰지 못하게 해요. 그래서 앱에 넣은 서브셋은 **NBF Sans**로 이름을 바꾸고, 원래 저작권 표시와 OFL 안내를 글꼴 파일의 name 테이블(ID 0, 13, 14)에 그대로 넣었어요. NBF Sans에는 Source, Inter, M PLUS 1 같은 다른 예약 이름도 쓰지 않았어요.
+- Pretendard는 SIL OFL 1.1로 배포, “Pretendard”는 예약 글꼴 이름(Reserved Font Name)
+- OFL은 수정본(글자를 줄인 서브셋 포함)이 예약 이름을 쓰지 못하게 함
+- 그래서 앱에 넣은 서브셋 이름은 **NBF Sans**. 원래 저작권 표시와 OFL 안내는 글꼴 파일 name 테이블(ID 0, 13, 14)에 그대로 유지
+- Source, Inter, M PLUS 1 같은 다른 예약 이름도 쓰지 않음
 
-## 음악 표기 (CC BY 4.0)
+Pretendard is released under the SIL OFL 1.1 with “Pretendard” as a Reserved Font Name, and the OFL does not let modified versions (subsets included) use it. The subset in the app is therefore named **NBF Sans**; the original copyright and OFL notices are kept in the font's name table (IDs 0, 13, 14). No other reserved names (Source, Inter, M PLUS 1) are used.
+
+## 음악 표기 · Music credit (CC BY 4.0)
 
 “Inspired” Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 License
 https://creativecommons.org/licenses/by/4.0/
-소개영상 길이에 맞게 자르고 끝부분을 다듬었어요(편집).
+소개 영상 길이에 맞게 편집 · Edited to fit the intro video
 
-## 상표
+## 상표 · Trademarks
 
-iRacing, Assetto Corsa, Assetto Corsa Competizione, Automobilista 2, rFactor 2, Le Mans Ultimate, BeamNG.drive, F1, Gran Turismo 7, SimHub, Govee 등 게임·제품 이름은 각 소유자의 상표예요. 내방핏은 이들과 관계가 없고, 이름은 게임별 화면 설정값을 안내하는 데만 써요. QR Code는 DENSO WAVE INCORPORATED의 등록상표예요.
+- iRacing, Assetto Corsa, Assetto Corsa Competizione, Automobilista 2, rFactor 2, Le Mans Ultimate, BeamNG.drive, F1, Gran Turismo 7, SimHub, Govee 등 게임·제품 이름은 각 소유자의 상표. 내방핏은 이들과 관계없음. 이름은 게임별 화면 설정값 안내에만 사용
+- Game and product names above are trademarks of their owners. Naebangfit is not affiliated with them and uses the names only to list settings per game
+- QR Code는 DENSO WAVE INCORPORATED의 등록상표 · QR Code is a registered trademark of DENSO WAVE INCORPORATED
 
 ---
 
