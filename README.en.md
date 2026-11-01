@@ -5,7 +5,7 @@
 A free web app that checks whether a sim racing rig fits your room before you buy one.
 Enter the room → place a rig in 3D → get a verdict (fits, tight, doesn't fit) → sit in the driver's seat and compare monitor setups.
 
-**[Open the app](https://rlacksgur06.github.io/naebangfit/en/)** · [한국어 버전](https://rlacksgur06.github.io/naebangfit/) · Version 1.5.1 · [Changelog](CHANGELOG.en.md)
+**[Open the app](https://rlacksgur06.github.io/naebangfit/en/)** · [한국어 버전](https://rlacksgur06.github.io/naebangfit/) · Version 1.5.2 · [Changelog](CHANGELOG.en.md)
 
 | Place a rig in your room | Driver's view |
 |---|---|

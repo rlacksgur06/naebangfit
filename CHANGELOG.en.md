@@ -2,6 +2,16 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.5.2 — 2026-11-02
+
+- iPhone Safari (iOS 26)
+  - The app now fits the visible area, so the floating bottom bar no longer covers the panel
+  - No more blur at the top: a strip in the page colour under the clock and battery
+  - Tab and history icons: PNG icons first
+- Tablets: the how-to video follows the layout (PC screens in landscape → PC video)
+- Integrity checks on outside code (3D engine, sign-in library, QR): a changed CDN file is not run
+- Values screen for checking a device: Menu › Open source & credits, tap the version five times
+
 ## 1.5.1 — 2026-11-02
 
 - New intro video (new cut, 42 s)
