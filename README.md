@@ -5,7 +5,7 @@
 내 방에 심레이싱 리그가 들어가는지 미리 확인하는 무료 웹 앱.
 방 치수 입력 → 리그를 3D로 배치 → 들어감·빠듯함·안 들어감 판정 → 운전석에 앉아 모니터 시야 비교.
 
-**[바로 열기](https://rlacksgur06.github.io/naebangfit/)** · [English version](https://rlacksgur06.github.io/naebangfit/en/) · 버전 1.5.2 · [변경 기록](CHANGELOG.md)
+**[바로 열기](https://rlacksgur06.github.io/naebangfit/)** · [English version](https://rlacksgur06.github.io/naebangfit/en/) · 버전 1.5.3 · [변경 기록](CHANGELOG.md)
 
 | 방에 리그 놓기 | 운전석에서 보기 |
 |---|---|
@@ -47,7 +47,7 @@
 | `index.html` | 앱 전체 (한 파일, 한국어) |
 | `en/index.html` | 영어 버전 (같은 앱, 글자만 영어) |
 | `media/` | 주행 영상(낮·밤, PC 화면별 `_L/_C/_R`, 휴대폰·방 화면용 `_M`), 주행 소리, 정지 화면 |
-| `media/guide/` | 사용법 영상(`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), 소개 영상 `naebangfit-ad-v3`, 시작 화면 배경 `naebangfit-bg-loop-*-v3`, 같은 이름의 `.jpg` 포스터 |
+| `media/guide/` | 사용법 영상(`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), 소개 영상 `naebangfit-ad-v3`, 시작 화면 배경 `naebangfit-bg-loop-*-v3`, 같은 이름의 `.jpg` 포스터. 영어판은 이름 끝 `-en` (영어 버전 페이지에서 사용) |
 | `favicon.svg` · `favicon-32.png` · `apple-touch-icon.png` · `icon-*.png` · `site.webmanifest` | 사이트 아이콘, 홈 화면 추가용 정보 |
 | `privacy.html` · `privacy-en.html` | 개인정보처리방침 (한국어 · English) |
 | `docs/` | 이 문서의 화면 사진, 링크 미리보기 그림 (`og-ko-2.jpg`, `og-en-2.jpg`) |

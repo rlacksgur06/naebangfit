@@ -2,6 +2,13 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.5.3 — 2026-11-02
+
+- English videos on the English page: 22 how-to videos (PC 12, phone 10), Getting started, and the intro video
+  - Recorded from the English app, with English captions and titles
+  - The video list shows the English lengths
+- The Korean page is unchanged; the start screen loop is shared by both
+
 ## 1.5.2 — 2026-11-02
 
 - iPhone Safari (iOS 26)

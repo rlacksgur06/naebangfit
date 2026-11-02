@@ -27,7 +27,7 @@ Where Naebangfit's images, sounds, videos and models come from. Checked against 
 
 | 자산 · Asset | 출처 · Source | 비고 · Notes |
 |---|---|---|
-| 사용법 영상, 소개 영상, 시작 화면 배경 · How-to videos, intro video, start screen loop | 내방핏 앱을 직접 촬영·편집 · Recorded and edited from the app | |
+| 사용법 영상, 소개 영상, 시작 화면 배경 · How-to videos, intro video, start screen loop | 내방핏 앱을 직접 촬영·편집 · Recorded and edited from the app | 영어판(`-en`)은 영어 버전 앱으로 따로 촬영 · The English cuts (`-en`) were recorded from the English app |
 | 자막 글꼴 · Caption font | Pretendard | OFL은 글꼴로 만든 그림·영상에 제한 없음 · The OFL places no limits on images or video made with the font |
 | 소개 영상 음악 · Intro video music | “Inspired” Kevin MacLeod (incompetech.com) | CC BY 4.0, 편집. 영상을 올리는 곳(설명란 등)에도 같은 표기 · Edited; the same credit goes wherever the video is posted |
 | 클릭·효과음 · Clicks and effects | 직접 합성 · Synthesised | |

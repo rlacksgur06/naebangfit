@@ -5,7 +5,7 @@
 A free web app that checks whether a sim racing rig fits your room before you buy one.
 Enter the room → place a rig in 3D → get a verdict (fits, tight, doesn't fit) → sit in the driver's seat and compare monitor setups.
 
-**[Open the app](https://rlacksgur06.github.io/naebangfit/en/)** · [한국어 버전](https://rlacksgur06.github.io/naebangfit/) · Version 1.5.2 · [Changelog](CHANGELOG.en.md)
+**[Open the app](https://rlacksgur06.github.io/naebangfit/en/)** · [한국어 버전](https://rlacksgur06.github.io/naebangfit/) · Version 1.5.3 · [Changelog](CHANGELOG.en.md)
 
 | Place a rig in your room | Driver's view |
 |---|---|
@@ -51,7 +51,7 @@ The guide videos are in Korean for now. English versions are on the way.
 | `index.html` | The whole app (one file, Korean) |
 | `en/index.html` | English version (same app, English text) |
 | `media/` | Driving footage (day and night, per-screen `_L/_C/_R` for PC, `_M` for phones and the room view), driving sound, still frame |
-| `media/guide/` | How-to videos (`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), intro video `naebangfit-ad-v3`, start screen loop `naebangfit-bg-loop-*-v3`, `.jpg` posters with the same names |
+| `media/guide/` | How-to videos (`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), intro video `naebangfit-ad-v3`, start screen loop `naebangfit-bg-loop-*-v3`, `.jpg` posters with the same names. English cuts end in `-en` (used on the English page) |
 | `favicon.svg` · `favicon-32.png` · `apple-touch-icon.png` · `icon-*.png` · `site.webmanifest` | Site icons and home-screen info |
 | `privacy.html` · `privacy-en.html` | Privacy Policy (Korean · English) |
 | `docs/` | Screenshots for this page, link preview images (`og-ko-2.jpg`, `og-en-2.jpg`) |
