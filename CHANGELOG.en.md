@@ -2,6 +2,13 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.6.0 — 2026-11-02
+
+- New address: https://naebangfit.com (English: https://naebangfit.com/en/)
+  - The old address (rlacksgur06.github.io/naebangfit) forwards to the new one; old share links still open
+  - New share links, setup card QR codes and link previews use the new address
+- Rooms and settings saved in the browser belong to each address, so the new address starts fresh (setups saved to an account are unchanged)
+
 ## 1.5.3 — 2026-11-02
 
 - English videos on the English page: 22 how-to videos (PC 12, phone 10), Getting started, and the intro video
