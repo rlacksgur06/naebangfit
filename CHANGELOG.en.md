@@ -2,6 +2,12 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.6.1 — 2026-11-02
+
+- Inches by default only in the US: English page + US English browser + a US time zone (Hawaii, Alaska and US territories included)
+  - Browsers set to US English outside the US start in cm
+  - A unit chosen in Menu › Settings still wins
+
 ## 1.6.0 — 2026-11-02
 
 - New address: https://naebangfit.com (English: https://naebangfit.com/en/)
