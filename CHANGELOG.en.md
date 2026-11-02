@@ -2,6 +2,13 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.6.2 — 2026-11-02
+
+- Phones: windows taller than the screen now scroll
+  - Setup gallery and the guide video list scroll inside the window
+  - Menu › Settings opened: the menu ends on screen and scrolls (Reset all and the open-source notice are reachable)
+- Rig step Rig/Monitor tabs: at the phone's normal panel height they scroll away with the list instead of covering it; pinned at the top when the panel is pulled all the way up
+
 ## 1.6.1 — 2026-11-02
 
 - Inches by default only in the US: English page + US English browser + a US time zone (Hawaii, Alaska and US territories included)
