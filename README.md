@@ -49,6 +49,7 @@
 | `media/` | 주행 영상(낮·밤, PC 화면별 `_L/_C/_R`, 휴대폰·방 화면용 `_M`), 주행 소리, 정지 화면 |
 | `media/guide/` | 사용법 영상(`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), 소개 영상 `naebangfit-ad-v3`, 시작 화면 배경 `naebangfit-bg-loop-*-v3`, 같은 이름의 `.jpg` 포스터. 영어판은 이름 끝 `-en` (영어 버전 페이지에서 사용) |
 | `favicon.svg` · `favicon-32.png` · `apple-touch-icon.png` · `icon-*.png` · `site.webmanifest` | 사이트 아이콘, 홈 화면 추가용 정보 |
+| `sitemap.xml` · `robots.txt` | 검색 엔진용 페이지 목록, 수집 허용 |
 | `privacy.html` · `privacy-en.html` | 개인정보처리방침 (한국어 · English) |
 | `docs/` | 이 문서의 화면 사진, 링크 미리보기 그림 (`og-ko-2.jpg`, `og-en-2.jpg`) |
 | `.github/workflows/keepalive.yml` | 로그인 서버(Supabase)를 하루 두 번 깨워 두는 자동 작업 |

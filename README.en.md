@@ -53,6 +53,7 @@ The guide videos are in Korean for now. English versions are on the way.
 | `media/` | Driving footage (day and night, per-screen `_L/_C/_R` for PC, `_M` for phones and the room view), driving sound, still frame |
 | `media/guide/` | How-to videos (`guide-pc-*` 1920×1080, `guide-mobile-*` 1080×1920), intro video `naebangfit-ad-v3`, start screen loop `naebangfit-bg-loop-*-v3`, `.jpg` posters with the same names. English cuts end in `-en` (used on the English page) |
 | `favicon.svg` · `favicon-32.png` · `apple-touch-icon.png` · `icon-*.png` · `site.webmanifest` | Site icons and home-screen info |
+| `sitemap.xml` · `robots.txt` | Page list and crawl rules for search engines |
 | `privacy.html` · `privacy-en.html` | Privacy Policy (Korean · English) |
 | `docs/` | Screenshots for this page, link preview images (`og-ko-2.jpg`, `og-en-2.jpg`) |
 | `.github/workflows/keepalive.yml` | Wakes the sign-in server (Supabase) twice a day |
