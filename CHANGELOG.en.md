@@ -2,6 +2,16 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.0 — 2026-11-03
+
+- Setup gallery: post with just a nickname, no sign-in
+  - Nickname field when posting (2–12 characters, remembered in this browser), shown on cards and in the detail view
+  - Posting without signing in runs a Cloudflare Turnstile bot check (usually invisible), then creates an anonymous account for this browser
+  - A setup posted without signing in can only be deleted from the browser that posted it; Google sign-in still works (delete from any device)
+  - My Library and reporting still need a Google account
+- Server: nickname required for anonymous accounts, 30 anonymous posts per hour in total, anonymous accounts with no posts deleted after 30 days
+- Privacy policy: nickname, anonymous accounts and Cloudflare (bot check) added
+
 ## 1.6.2 — 2026-11-02
 
 - Phones: windows taller than the screen now scroll

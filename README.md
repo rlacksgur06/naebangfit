@@ -5,7 +5,7 @@
 내 방에 심레이싱 리그가 들어가는지 미리 확인하는 무료 웹 앱.
 방 치수 입력 → 리그를 3D로 배치 → 들어감·빠듯함·안 들어감 판정 → 운전석에 앉아 모니터 시야 비교.
 
-**[바로 열기](https://naebangfit.com/)** · [English version](https://naebangfit.com/en/) · 버전 1.6.2 · [변경 기록](CHANGELOG.md)
+**[바로 열기](https://naebangfit.com/)** · [English version](https://naebangfit.com/en/) · 버전 1.7.0 · [변경 기록](CHANGELOG.md)
 
 | 방에 리그 놓기 | 운전석에서 보기 |
 |---|---|
@@ -52,7 +52,7 @@
 | `sitemap.xml` · `robots.txt` | 검색 엔진용 페이지 목록, 수집 허용 |
 | `privacy.html` · `privacy-en.html` | 개인정보처리방침 (한국어 · English) |
 | `docs/` | 이 문서의 화면 사진, 링크 미리보기 그림 (`og-ko-2.jpg`, `og-en-2.jpg`) |
-| `.github/workflows/keepalive.yml` | 로그인 서버(Supabase)를 하루 두 번 깨워 두는 자동 작업 |
+| `.github/workflows/keepalive.yml` | 로그인 서버(Supabase)를 하루 두 번 깨워 두는 자동 작업 (올린 셋업 없는 익명 계정도 30일 뒤 정리) |
 
 ## 저작권
 

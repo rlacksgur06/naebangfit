@@ -5,7 +5,7 @@
 A free web app that checks whether a sim racing rig fits your room before you buy one.
 Enter the room → place a rig in 3D → get a verdict (fits, tight, doesn't fit) → sit in the driver's seat and compare monitor setups.
 
-**[Open the app](https://naebangfit.com/en/)** · [한국어 버전](https://naebangfit.com/) · Version 1.6.2 · [Changelog](CHANGELOG.en.md)
+**[Open the app](https://naebangfit.com/en/)** · [한국어 버전](https://naebangfit.com/) · Version 1.7.0 · [Changelog](CHANGELOG.en.md)
 
 | Place a rig in your room | Driver's view |
 |---|---|
@@ -56,7 +56,7 @@ The guide videos are in Korean for now. English versions are on the way.
 | `sitemap.xml` · `robots.txt` | Page list and crawl rules for search engines |
 | `privacy.html` · `privacy-en.html` | Privacy Policy (Korean · English) |
 | `docs/` | Screenshots for this page, link preview images (`og-ko-2.jpg`, `og-en-2.jpg`) |
-| `.github/workflows/keepalive.yml` | Wakes the sign-in server (Supabase) twice a day |
+| `.github/workflows/keepalive.yml` | Wakes the sign-in server (Supabase) twice a day (also removes anonymous accounts with no posts after 30 days) |
 
 ## Copyright
 
