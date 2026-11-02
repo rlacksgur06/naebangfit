@@ -2,6 +2,14 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.2 — 2026-11-03
+
+- The drive video on the monitors is sharp in the normal view too
+  - Before: the view from the eye was first drawn into a 360° picture (1024 px a side, 2048 px with high quality) and then put on the monitors, so in the normal view, where a monitor fills much of the screen, it was stretched 1.5–3x and looked blurry
+  - Now: every point of a monitor takes its colour straight from the drive video, in the direction it is seen from the eye, at the video's own resolution
+  - Layout and angles are the same as before (triple, ultrawide, single, wide view, Showroom, your own video)
+  - Lighter: no 360° picture is drawn every frame
+
 ## 1.7.1 — 2026-11-03
 
 - Motion base in the driver's view: feels like sitting on a real motion rig
