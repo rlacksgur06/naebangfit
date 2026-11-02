@@ -2,6 +2,15 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.1 — 2026-11-03
+
+- Motion base in the driver's view: feels like sitting on a real motion rig
+  - The rig now tilts in the driver's view too, the same as in the room view (braking and throttle forward and back, corners side to side)
+  - The seat carries your eye (under braking your head moves toward the screens)
+  - Your head stays closer to level than the seat: it takes about a third of the tilt, a little later
+  - Rig-mounted monitors and the wheel move with you; monitors on a floor stand or a desk stay put (before, only the view tilted, so the wheel and monitors swayed in front of you)
+- The person model in the light test tilts with the seat too
+
 ## 1.7.0 — 2026-11-03
 
 - Setup gallery: post with just a nickname, no sign-in
