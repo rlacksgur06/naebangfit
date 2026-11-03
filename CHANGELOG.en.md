@@ -2,6 +2,23 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.3 — 2026-11-03
+
+- Choose the motion base (Rig › Equipment › Motion)
+  - 4 actuators: the same height as before (14 cm). Tilts front to back and side to side, and bumps on kerbs
+  - 6-axis platform: a hex base on the floor and six actuators (38 cm high, base about 1.2 × 1.4 m). Tilt and heave plus surge and sway
+  - The actuators now stretch and shorten as the rig moves
+- Traction loss (±6° · ±10° · ±15°)
+  - In corners the rear of the rig steps out. 4 actuators: a front pivot and a curved rear rail; 6-axis: about the platform's center
+  - Fit check: the whole swing is checked against walls, furniture (with heights), the monitor stand and doors
+  - The swept area is drawn on the floor (red where it hits)
+- Driver's view: your eye rides the seat through yaw, heave, surge and sway too, and your head turns with the seat
+- Fixes
+  - Showroom: the screens froze when the 3D drive played instead of the video (video not loading, or the standalone file) (since 1.7.2)
+  - The screens could freeze on a selected rig when the drive video was drawn the plain way
+  - An error when you typed a length on PC and then clicked elsewhere
+  - The first-visit flag in the anonymous usage stats was always recorded as "no"
+
 ## 1.7.2 — 2026-11-03
 
 - The drive video on the monitors is sharp in the normal view too
