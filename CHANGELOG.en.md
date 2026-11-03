@@ -2,6 +2,16 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.5 — 2026-11-03
+
+- Notices on the phone cover less of the screen
+  - A notice is as wide as its text (before, it was held to half the screen, so even a short one broke after every word)
+  - Slightly smaller text, and Korean never breaks inside a word
+- Long notices and hints break where it reads naturally
+  - If one doesn't fit on a line, each " · " part and each sentence goes on its own line
+- A shorter notice when you press furniture in the Rig step
+  - First time: "The Rig step moves just the rig / The Furniture step moves both", after that: "Move furniture in the Furniture step"
+
 ## 1.7.4 — 2026-11-03
 
 - A more exact traction loss check
