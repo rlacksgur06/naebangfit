@@ -2,6 +2,23 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.7.4 — 2026-11-03
+
+- A more exact traction loss check
+  - The swing is worked out in 2° slices along the real path (before, each part was wrapped loosely, which reached 1–2 cm too far near the pivot)
+  - It says what hits what: "the seat hits the stand monitors", "the rig's side hits the stand legs"
+  - The spots that touch are marked red on the floor
+  - Contacts that are already there at rest go to the normal check; traction loss only reports new ones from the swing
+- Floor stand + motion: the stand legs hitting the motion base's actuator feet is now caught (it was missed before)
+  - "Widen stand legs" button on the verdict card: widens the leg span until they clear
+- Phone: stop the bottom panel at any height
+  - The handle follows your finger and the panel stays where you let go
+  - A quick flick goes to the next stop (20 · 36 · 60 · 80 %); tapping the handle steps through heights as before
+  - The Rig/Monitor tabs stick to the top only when the panel is 60 % or taller
+- Pressing furniture in the Rig step shows a notice with a "Go to Furniture" button
+  - The first time it also says why (the Rig step moves only the rig, precisely; the Furniture step moves the rig too)
+  - The button opens the Furniture step with that piece selected
+
 ## 1.7.3 — 2026-11-03
 
 - Choose the motion base (Rig › Equipment › Motion)
