@@ -2,6 +2,14 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.8.1 — 2026-11-06
+
+- More anonymous usage stats (nothing on screen changes)
+  - Big Screen Hall tour · night · screen distance · moving between pits · bar stool, Lite mode (by hand / switched on by itself when it stutters), high-quality light, PC under the desk, garage save, setup card text copy, iRacing settings save
+  - When the app opens: the unit in use (cm · mm · in) and the link's campaign tags (utm_source · utm_medium · utm_campaign, letters and digits, 40 at most)
+- What's new: a version with nothing new on screen (like this one) no longer hides the 1.8.0 dot and start-screen line from people who haven't seen it
+- Privacy Policy: "campaign tags on the link (utm)" added to what is collected
+
 ## 1.8.0 — 2026-11-06
 
 - Monitor tab: pick single or triple, then the screen shape (16:9 standard · 21:9 ultrawide · 32:9 super ultrawide), then the size, then the curve (flat · 1000R), one row each
