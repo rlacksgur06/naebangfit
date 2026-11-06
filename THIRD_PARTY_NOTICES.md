@@ -10,7 +10,7 @@ External code, fonts, icons and music used by Naebangfit, with their licenses. A
 | supabase-js 2.117.3 (auth-js, postgrest-js 등 · and others) | 로그인, 내 라이브러리, 공유 링크, 갤러리 (이 사이트에서만) · Sign-in, My Library, share links, gallery (this site only) | MIT | © 2020 Supabase |
 | Phosphor Icons (regular) | 앱 아이콘 대부분, SVG 경로를 index.html에 포함 · Most app icons, SVG paths inside index.html | MIT | © 2023 Phosphor Icons |
 | NBF Sans (Pretendard 1.309 기반 · based on Pretendard 1.309) | 앱 글꼴, 쓰는 글자만 남기고 이름 변경 · App font, subset and renamed | SIL OFL 1.1 | © 2021 Kil Hyung-jin 외 · and others (전문 아래 · full text below) |
-| “Inspired” Kevin MacLeod | 소개 영상 배경음악 (편집) · Intro video music (edited) | CC BY 4.0 | Kevin MacLeod (incompetech.com) |
+| “Inspired” Kevin MacLeod | 소개 영상·1.8.0 쇼룸 영상 배경음악 (편집) · Intro and 1.8.0 showroom video music (edited) | CC BY 4.0 | Kevin MacLeod (incompetech.com) |
 
 ## 글꼴 이름을 바꾼 이유 · Why the font is renamed
 
@@ -26,7 +26,7 @@ Pretendard is released under the SIL OFL 1.1 with “Pretendard” as a Reserved
 “Inspired” Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 License
 https://creativecommons.org/licenses/by/4.0/
-소개 영상 길이에 맞게 편집 · Edited to fit the intro video
+소개 영상과 1.8.0 쇼룸 영상 길이에 맞게 편집 · Edited to fit the intro and 1.8.0 showroom videos
 
 ## 상표 · Trademarks
 

@@ -2,6 +2,52 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.8.0 — 2026-11-06
+
+- Monitor tab: pick single or triple, then the screen shape (16:9 standard · 21:9 ultrawide · 32:9 super ultrawide), then the size, then the curve (flat · 1000R), one row each
+  - 16:9 holds the usual sizes and "Large · floor stand" 42" · 48" · 55" · 65" (TV panels). The 55" single and triple can be 1000R (old "single 55" curve" setups open as this)
+  - New ultrawide triples 34" (1800R) and 39" (800R), and the ultrawide 39" single (800R)
+  - Which screens go on a floor stand only is decided by size: every large screen, and triples 2.2 m wide or more, or 10 kg or more a screen
+  - A large screen shows a picture of its size next to a 175 cm person
+  - The eye distance follows the monitor you pick (85 · 95 · 105 · 125 cm). Set it by hand and it stays, until you switch to or from a large screen. Up to 160 cm; no overhead screen
+  - Verdict: says when the side screens reach past your eyes
+- The rig step, tidied: fewer things to press at first sight
+  - Rig tab: one rig card (name + Change; the types open from it), equipment, posture (your height + "Sit in the driver's seat ›"), More (button lights · frame colour · my rigs · duplicate/delete this rig)
+  - With two or more rigs, one row of tabs on top: [Rig 1] [Rig 2] [+] (the hall: 01 to 06)
+  - Monitor tab: Screen (single/triple · shape · size · curve; the sizes in one row, 27" 32" │ 42" 48" 55" 65") → Mount (rig-mounted · floor stand · desk arm, moved from the rig tab) → Fine-tune (side angle · stand leg span · top monitor, folded)
+- Large stand (triples 42" and up): centre frame plus a T-foot under each side screen, casters, vertical VESA rails; the side feet are checked against the rig frame
+- Floor stand (32" and below): 128 cm posts, 70 cm feet with the post a third of the way from the back (2/3 in front, 1/3 behind), corner gussets at the post, triple arms hinged at the posts (the 72 cm default leg span stays)
+- Big Screen Hall (new): six triple booths, 32" · 42" · 48" · 55" · 55" 1000R · 65", each with a plate of what you actually see; ◀ ▶ goes from 32" up
+  - Black slat partitions, polished concrete floor, terrazzo booth floors edged in steel, walnut walls, red LED, a ceiling spot over every rig, a dark backdrop around the view
+  - Light: soft wall-washer scallops down the front wall, a coffer 38 cm up into the ceiling over the middle with hidden cove light, grazers over the slat walls behind the pits and a bias light behind each set of screens, the pit number painted on the floor (01 to 06) and LED round each booth, walnut slats behind the logo (all drawn light, so phones keep 60 fps)
+  - Bar: a smoked bronze mirror with three dark walnut shelves (an LED under each), bottles of five kinds (whisky · wine · gin · sparkling · liqueur, made-up house labels) and glasses, whisky on the rocks, a glass of red and an ice bucket on the counter, a fluted walnut counter front
+  - Front wall: a reception desk (booking tablet) under a live timing board (the order at the same moment as the drive video, changing as it plays, the video's car marked ON-SCREEN CAR), a lounge TV playing the drive video's middle screen in 16:9, three snake plants in fluted ceramic pots with pebbles, clear of the door's swing, a PIT EXIT light box over the door whose five start lights come on one by one as you walk up and go out
+  - The cars and the circuit from the drive video: 1/12 models on the counter, 1/8 on the plinths by the team sets, an ON SCREEN tag on every case, a monitor at the counter end playing the drive (middle screen, 16:9), the diorama 1.25x with contour lines like an architect's model (darker than the ground, so the track stands out from afar) and a red dot running where the video's car is right now
+  - Hardware tower: a card with each piece's name in the app ("Pick it in Naebangfit") and a sign on top, "The gear from the app"
+  - Team race suits with the sponsors printed on and the sleeves clear of the body, caps with embroidered names, soft fabric gloves
+  - Our logo built in 3D with a soft amber halo, two team race suits (made-up sponsors, calm navy and burgundy) with helmets, the GT3 and LMP from the drive video as models in lit cases, a diorama of the video's circuit (pits, grandstands, start line), a hardware tower (DD base · quick release · extension · pedals · stream deck · button box · handbrake · shifter · three wheels), a shadow-board tool wall (30-odd tools) with a tool chest and slicks, a bar corner (sit on the stools), a lounge
+  - Screen distance: at the bottom of the driver's view, "Recommended per size" or "Same distance" (starting from your own rig's eye-to-screen distance at home, 80 cm without one, in 5 cm steps); with one distance the pit plates show that distance and what you see at it. On a phone, tap the pit card (PIT 0n)
+  - Tour: "Tour" in the view bar glides the camera round the hall at head height (a tap or a key stops it, H hides the text)
+  - Night: the ceiling lights off, only the LED coves, the wall light and the screens
+  - Floor reflections: every pit's screens, the lounge TV and the timing board show softly in the polished floor (moving with the video), and a sheen on the floor in front of the low LED coves
+  - A merch stand by reception (caps · tees · mugs · gloves · key rings, an NBF STORE light box on top) and a hanging PIT sign over every booth
+  - Straight from the start screen and the example list, a button between it and the Showroom, a gallery picture
+- Fewer buttons in the driver's seat: the row is ◀ · Stand up · ▶ and one menu (the drive video · wide view); while seated, the showroom pit card keeps just the pit and the compare picker
+- Phones play the screens in every view like a computer (phones used to start in Lite mode, moving only from the driver's seat); if the view stutters badly it switches to Lite mode by itself, and Menu › Lite mode turns it on or off
+- What's new (new): Menu › What's new shows what changed in each version, briefly (every version since 1.0.0; earlier ones folded). 1.8.0 comes with the showroom film on the Korean page (also in Menu › How to use). A blue dot on the menu when there is a new version, and one line on the start screen for people who used an earlier one (once)
+- The creator's Naver Cafe post links are gone from the app (the triple setup series, dampening and lighting posts, the setup card's example post); the setup card's "Copy post text" is now "Copy as text"
+- Showroom: PIT 05 is the ultrawide triple 39"; 45" · 49" · 57" move to PIT 06 · 07 · 08. Every seat is set 65 cm from the eyes so they compare fairly
+- Fixed: with motion or traction loss on in your own room, a visit to the Showroom put a motion base under the seat you sat in, and it spread to every seat you moved to
+- Monitor and TV backs: gaming monitor rear housing, TVs as a thin panel with the electronics box low on the back, curved screens with a rear shell
+- Adding a rig or furniture in a big room was slow: the free-spot search now starts nearby, about 40× faster in a 13×10 m room (same spots as before)
+- Signs, posters and partitions on a wall now hide with that wall when the view cuts it away, instead of floating
+- Ceilings: walking, sitting and the driver's seat show a ceiling. Your room gets ceiling lights placed for its size and shape (1 up to 16 m², 2 up to 30 m², then one per ~15 m²; one in each arm of an L-shaped room); the Showroom has downlights. Your room's ceiling light is a slim edge-lit panel (1.6 cm)
+- The PC can go under the desk: in the Furniture step, tap the PC and "Under the desk" (and "On the desk" to put it back)
+- Fixed: walking in the Showroom or the hall, then walking in your own room, started you outside its walls, unable to move
+- Walking: the Showroom's and the hall's tables, shelves, mannequins, cases, bar, diorama, tool chest and partitions now stop you (before, only walls and furniture you placed did)
+- Furniture: bedside table (legs, two drawers), TV stand (legs, fluted doors)
+- Lighting preview: bigger screens throw more light on your hands
+
 ## 1.7.5 — 2026-11-03
 
 - Notices on the phone cover less of the screen

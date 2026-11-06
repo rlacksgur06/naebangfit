@@ -5,7 +5,7 @@
 A free web app that checks whether a sim racing rig fits your room before you buy one.
 Enter the room → place a rig in 3D → get a verdict (fits, tight, doesn't fit) → sit in the driver's seat and compare monitor setups.
 
-**[Open the app](https://naebangfit.com/en/)** · [한국어 버전](https://naebangfit.com/) · Version 1.7.5 · [Changelog](CHANGELOG.en.md)
+**[Open the app](https://naebangfit.com/en/)** · [한국어 버전](https://naebangfit.com/) · Version 1.8.0 · [Changelog](CHANGELOG.en.md)
 
 | Place a rig in your room | Driver's view |
 |---|---|
@@ -23,9 +23,10 @@ Enter the room → place a rig in 3D → get a verdict (fits, tight, doesn't fit
 | Monitors | Single, ultrawide, triple (curved too). Rig-mounted, floor stand or monitor arm |
 | Verdict | Does it fit, can the door open, room to get in and out, distance to the screens |
 | Driver's seat | Seated view, wide view (200°), day and night driving footage with engine sound, FOV values per game |
-| Tools | Cable lengths, lighting preview, Showroom (10 monitor setups), setup card (QR), share links |
-| Browse | Setup gallery: Naebangfit examples (Showroom, 3 example rooms) and setups shared by others |
+| Tools | Cable lengths, lighting preview, Showroom (10 monitor setups), Big Screen Hall (six triples, 32" to 65"), setup card (QR), share links |
+| Browse | Setup gallery: Naebangfit examples (Showroom, Big Screen Hall, 3 example rooms) and setups shared by others |
 | Account (optional) | Google sign-in, My Library (up to 50 setups), post to the gallery |
+| What's new | Menu › What's new: what changed in each version |
 | Display | PC and phone, light and dark, Korean and English, units cm · mm · in |
 
 Inches: Menu › Settings › Units. The English version opens in inches in US browsers. Rig profiles, game FOV values and part specs stay in mm.
