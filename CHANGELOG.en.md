@@ -2,6 +2,19 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.8.2 — 2026-11-06
+
+- Monitors: 39" 16:9 single and triple (flat or 3000R, 38.5" visible)
+- 39" 21:9 ultrawide (single and triple): choose 800R or 1500R
+- A curved monitor always shows its curvature, even when there is only one, so you can check it is yours
+- Start screen: a What's new button under the intro film button (with a blue dot when there is something you haven't seen)
+- What's new: older entries show their film too when opened
+- Switching to a desk monitor arm moves the desk chair out of the spot the rig rolls into (it used to make the verdict "doesn't fit")
+- Monitor tab › Mount: the "Monitor arm position" row no longer sits right against the buttons above it
+- Setup gallery: example rooms tidied (2 examples; the big-window one is gone, the L-shaped room is now example 2)
+- Big Screen Hall film in English (English page)
+- Five how-to videos remade on the 1.8.0 screens: Getting started, Choosing a rig, Choosing monitors, See result, Looking around and the seat (PC and phone, Korean and English)
+
 ## 1.8.1 — 2026-11-06
 
 - More anonymous usage stats (nothing on screen changes)
