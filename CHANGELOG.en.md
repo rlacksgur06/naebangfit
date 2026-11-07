@@ -2,6 +2,24 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.9.0 — 2026-11-07
+
+![The new Showroom at night](media/guide/news-1.9.0.jpg)
+
+- A new Showroom: a bright wooden neighbourhood café with 10 rigs — four triples on the back wall (PIT 01–04), four ultrawides on a centre island (05–08), two singles by the window (09–10)
+- The café: a coffee bar (espresso machine, grinders, tiled wall, menu boards), a pastry counter, a long table, round tables and a window bar; sit on the chairs and stools
+- The rig types on show in a corner (folding, tube frame, desk clamp), a PC by every rig, the PIT TALK wall, a workshop corner (tool board, tyres, a promo TV), the Naebangfit sign
+- A street outside the windows (pavement, wall, trees, street lamps, sky), cream limewash walls, sage panelling, a coffered ceiling
+- The Showroom opens at night: dark outside, LED indirect lights, pools of light under the ceiling lights (day is one switch away); a Showroom tour
+- Choose the screen distance in the Showroom too: "Same distance" (default: your own rig's distance, or 80 cm) or "Recommended per size", remembered apart from the Big Screen Hall
+- Showroom chairs and stools start in the plain view (rigs keep the wide view)
+- Big Screen Hall: the profile rigs are now 40×160 (the 40×40 seat rails stay), with a PC by every rig
+- Rig tabs: from 11 on they read "11", not "Rig 11"
+- "Same distance" goes up to 115 cm in the Big Screen Hall and 110 cm in the Showroom (any further and the stands reach the back wall)
+- Phones: the PIT card no longer hides under the pill at the top (Showroom and Big Screen Hall), and the Night switch no longer gets cut off during the tour
+- What's new: 1.9.0, with a picture of the new Showroom
+- How-to video: the Showroom episode remade in the new Showroom (PC and phone, Korean and English)
+
 ## 1.8.2 — 2026-11-06
 
 - Monitors: 39" 16:9 single and triple (flat or 3000R, 38.5" visible)

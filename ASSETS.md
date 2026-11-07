@@ -23,6 +23,7 @@ Where Naebangfit's images, sounds, videos and models come from. Checked against 
 | 글꼴 NBF Sans · Font | Pretendard 1.309 서브셋, 이름 변경 · Pretendard 1.309 subset, renamed | SIL OFL 1.1, THIRD_PARTY_NOTICES.md |
 | 갤러리 예시 그림, 링크 미리보기 그림 (`docs/og-*`) · Gallery example pictures, link preview images | 앱 화면을 직접 렌더링 · Rendered from the app | |
 | 대형 쇼룸 장식: 차 모형(GT·LMP, `CARS`·`CARLIV`), 레이스 슈트·헬멧, 병 라벨, 공구, 굿즈, 타이밍 보드, 로고 · Big Screen Hall props: car models, race suits and helmets, bottle labels, tools, merch, timing board, logo | 직접 제작 (차는 주행 영상용 자체 모델을 줄인 것) · Original (the cars are our own footage models, reduced) | 팀·스폰서·술·드라이버 이름은 모두 가상 (APEXLINE, VELOCE OIL, PODIUM, LATEBRAKER 등). 실제 브랜드·로고·사람 없음 · Every team, sponsor, drink and driver name is made up; no real brands, logos or people |
+| 체험 카페 소품: 의자·테이블·커피 머신·그라인더·컵·빵·화분·쇼케이스·선반 받침 등(`KNM`), 창밖 골목, PIT TALK 보드, 광고 TV 문구 · Showroom props: chairs, tables, coffee machine, grinders, cups, pastries, plants, display case, shelf brackets (`KNM`), the street outside, PIT TALK board, promo TV caption | 직접 제작 (CadQuery로 모델링) · Original (modelled with CadQuery) | 실제 제품 모양·이름 없음 · No real product shapes or names |
 | 대형 모니터 (42"~65")·대형 스탠드 · Large monitors and the large stand | 직접 제작 · Original | 시판 TV·스탠드의 치수·무게만 참고, 제품 모양·이름 없음 · Only the sizes and weights of TVs and stands on the market were consulted; no product shapes or names |
 
 ## 영상 · Videos (`media/guide/`)
