@@ -2915,6 +2915,9 @@ $('#vlX').onclick = () => { $('#vlDlg').hidden = true; };
 $('#vlDlg').addEventListener('click', e=>{ if (e.target.id==='vlDlg') e.target.hidden = true; });
 /* ===== 업데이트 소식: what changed, newest first. A dot on the menu until the new version's notes are opened; one line on the start screen, once ===== */
 const NOTES = [
+  {v:'1.9.1', d:'2026-11-07', t:'A lighter first visit', l:[
+    'On a first visit, "Get started" no longer opens the how-to video over the app',
+    'Watch it from the blue "New here?" button on the Room step (it turns back into the usual "How to" button once you open it or move on to Furniture)']},
   {v:'1.9.0', d:'2026-11-07', t:'A new Showroom', img:'news-1.9.0.jpg', l:[
     'The Showroom is now a bright wooden neighbourhood café: 10 rigs (triple, ultrawide, single)',
     'It opens at night: the street outside, indirect lights, pools of light under the ceiling lights (day is a tap away)',

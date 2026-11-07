@@ -2913,6 +2913,9 @@ $('#vlX').onclick = () => { $('#vlDlg').hidden = true; };
 $('#vlDlg').addEventListener('click', e=>{ if (e.target.id==='vlDlg') e.target.hidden = true; });
 /* ===== 업데이트 소식: what changed, newest first. A dot on the menu until the new version's notes are opened; one line on the start screen, once ===== */
 const NOTES = [
+  {v:'1.9.1', d:'2026-11-07', t:'처음 시작을 가볍게', l:[
+    '처음 오면 "시작하기"를 눌러도 사용법 영상이 화면을 덮지 않아요',
+    '영상은 방 단계의 파란 "처음이면 … 영상" 버튼으로 볼 수 있어요 (한 번 보거나 가구 단계로 넘어가면 원래 "사용법" 버튼으로)']},
   {v:'1.9.0', d:'2026-11-07', t:'체험 카페 새 단장', img:'news-1.9.0.jpg', l:[
     '체험 카페를 밝은 우드 동네 카페로 새로: 리그 10곳 (트리플 · 울트라와이드 · 싱글)',
     '카페는 야간이 기본: 창밖 골목 · 간접등 · 천장등 아래 빛 (낮으로도 볼 수 있어요)',
