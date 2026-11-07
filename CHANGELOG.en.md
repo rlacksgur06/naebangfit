@@ -2,6 +2,10 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 1.9.1 — 2026-11-07
+
+- On a first visit, "Get started" no longer opens the how-to video over the app. The Room step's help button stands out instead ("New here? ○ sec video") and opens the same video (it goes back to the usual button once you open it or move on to Furniture)
+
 ## 1.9.0 — 2026-11-07
 
 ![The new Showroom at night](media/guide/news-1.9.0.jpg)
