@@ -2,6 +2,12 @@
 
 [한국어](CHANGELOG.md) · **English**
 
+## 2.0.1 — 2026-11-14
+
+- Phones: switching between the Showroom and the Big Screen Hall no longer ends in a white screen or back on the start screen. The pictures of a hall (posters, signs, walls and floor, screen stills) stayed in graphics memory after leaving it and piled up (about 170 MB in the Showroom, another 160 MB on top after moving to the Big Screen Hall, 200 MB more on the way back). Whatever is no longer on screen is now freed when a room is loaded and when a hall or an example room is entered or left (`texSweep`). The same on computers
+- Fixed: a screen that had shown the lap left one copy of its still picture behind every time its rig was rebuilt
+- Phones and tablets: the halls' drawn pictures and the screens' still picture are half the size (a quarter of the memory). At phone size the Showroom's pictures go from about 170 MB to 53 MB
+
 ## 2.0.0 — 2026-11-14
 
 **Seat position**
