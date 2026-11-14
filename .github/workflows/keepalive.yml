@@ -1,0 +1,28 @@
+# Supabase 무료 플랜은 7일 동안 사용이 없으면 프로젝트를 멈춰요(로그인·내 라이브러리가 안 됨).
+# 하루 두 번 데이터베이스의 ping() 함수를 불러서 멈추지 않게 해요.
+# ping() 은 1을 돌려주고, 만든 지 30일이 지났는데 올린 셋업이 없는 익명 계정(닉네임으로 올리기)을 지워요.
+# 주소와 키는 앱(index.html)에 들어 있는 공개용 값과 같아요.
+name: Supabase keep-alive
+
+on:
+  schedule:
+    - cron: '17 3,15 * * *'   # 매일 12:17, 00:17 (한국 시간)
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ping Supabase
+        env:
+          SB_URL: https://mxcvfuwdcrokemypdhyu.supabase.co
+          SB_KEY: sb_publishable_2U9rOnMuQkUKq6bi2cev7A_38RkEI8r
+        run: |
+          code=$(curl -sS -o body.txt -w '%{http_code}' --retry 3 --retry-delay 20 \
+            -X POST "$SB_URL/rest/v1/rpc/ping" \
+            -H "apikey: $SB_KEY" -H "Content-Type: application/json" -d '{}')
+          echo "HTTP $code: $(cat body.txt)"
+          test "$code" = 200

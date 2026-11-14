@@ -1,0 +1,33 @@
+# 다른 사람이 만든 원본·작업 파일: 저장소에 올리지 않아요 (ASSETS.md 참고)
+*.dae
+*.skp
+*.skb
+*.wav
+*.aif
+*.aiff
+*.flac
+*.psd
+*.blend
+*.blend1
+raw/
+work/
+frames/
+_to_delete/
+
+# 앱 작업 중 생긴 파일
+pre*.html
+*.v[0-9]*.html
+patch_*.py
+t*.py
+hx*.py
+run_reg.sh
+chk.js
+*.log
+lic/orig.woff2
+rE/
+
+# 시스템
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
